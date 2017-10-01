@@ -8,7 +8,7 @@
     <meta http-equiv="uitoas" content="appointment">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Online appointment system</title>
+    <title>Uit oas</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
