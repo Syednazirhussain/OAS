@@ -29,6 +29,10 @@
               <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1506867603236" expanded="true" signature="3502:3519" placeholder="..." />
+                <marker date="1506867603236" expanded="true" signature="4610:4627" placeholder="..." />
+                <marker date="1506867603236" expanded="true" signature="5713:5730" placeholder="..." />
+                <marker date="1506867603236" expanded="true" signature="6788:6805" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -528,12 +532,12 @@
       <workItem from="1503984336622" duration="3150000" />
       <workItem from="1504009757290" duration="40000" />
       <workItem from="1504849751159" duration="2417000" />
-      <workItem from="1506867501524" duration="109000" />
+      <workItem from="1506867501524" duration="696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="667188000" />
+    <option name="totallyTimeSpent" value="667775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -971,6 +975,10 @@
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1506867603236" expanded="true" signature="3502:3519" placeholder="..." />
+            <marker date="1506867603236" expanded="true" signature="4610:4627" placeholder="..." />
+            <marker date="1506867603236" expanded="true" signature="5713:5730" placeholder="..." />
+            <marker date="1506867603236" expanded="true" signature="6788:6805" placeholder="..." />
           </folding>
         </state>
       </provider>
