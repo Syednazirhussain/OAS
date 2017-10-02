@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2480606a-77f5-4862-ae12-3f3de27ebc39" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/login.php" afterPath="$PROJECT_DIR$/Project/login.php" />
     </list>
     <ignored path="Design2.iws" />
@@ -28,13 +27,13 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
               <folding>
-                <marker date="1506930140416" expanded="true" signature="3447:3464" placeholder="..." />
-                <marker date="1506930140416" expanded="true" signature="4555:4572" placeholder="..." />
-                <marker date="1506930140416" expanded="true" signature="5658:5675" placeholder="..." />
-                <marker date="1506930140416" expanded="true" signature="6733:6750" placeholder="..." />
+                <marker date="1506930371084" expanded="true" signature="3450:3467" placeholder="..." />
+                <marker date="1506930371084" expanded="true" signature="4558:4575" placeholder="..." />
+                <marker date="1506930371084" expanded="true" signature="5661:5678" placeholder="..." />
+                <marker date="1506930371084" expanded="true" signature="6736:6753" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -485,12 +484,12 @@
       <workItem from="1504009757290" duration="40000" />
       <workItem from="1504849751159" duration="2417000" />
       <workItem from="1506867501524" duration="696000" />
-      <workItem from="1506929681303" duration="458000" />
+      <workItem from="1506929681303" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="668233000" />
+    <option name="totallyTimeSpent" value="668459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -877,13 +876,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
           <folding>
-            <marker date="1506930140416" expanded="true" signature="3447:3464" placeholder="..." />
-            <marker date="1506930140416" expanded="true" signature="4555:4572" placeholder="..." />
-            <marker date="1506930140416" expanded="true" signature="5658:5675" placeholder="..." />
-            <marker date="1506930140416" expanded="true" signature="6733:6750" placeholder="..." />
+            <marker date="1506930371084" expanded="true" signature="3450:3467" placeholder="..." />
+            <marker date="1506930371084" expanded="true" signature="4558:4575" placeholder="..." />
+            <marker date="1506930371084" expanded="true" signature="5661:5678" placeholder="..." />
+            <marker date="1506930371084" expanded="true" signature="6736:6753" placeholder="..." />
           </folding>
         </state>
       </provider>

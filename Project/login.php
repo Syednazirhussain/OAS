@@ -59,7 +59,7 @@
                 });
             });
             $('#submit').click(function () {
-                  /* alert('working');*/
+                  alert('Jquerey working');
                 var text = '';
                 var jsObj = {};
                 var data = $('#Login').serializeArray();
