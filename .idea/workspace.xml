@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2480606a-77f5-4862-ae12-3f3de27ebc39" name="Default" comment="" />
+    <list default="true" id="2480606a-77f5-4862-ae12-3f3de27ebc39" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/login.php" afterPath="$PROJECT_DIR$/Project/login.php" />
+    </list>
     <ignored path="Design2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,18 +24,17 @@
     <favorites_list name="Design2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1506867603236" expanded="true" signature="3502:3519" placeholder="..." />
-                <marker date="1506867603236" expanded="true" signature="4610:4627" placeholder="..." />
-                <marker date="1506867603236" expanded="true" signature="5713:5730" placeholder="..." />
-                <marker date="1506867603236" expanded="true" signature="6788:6805" placeholder="..." />
+                <marker date="1506930140416" expanded="true" signature="3447:3464" placeholder="..." />
+                <marker date="1506930140416" expanded="true" signature="4555:4572" placeholder="..." />
+                <marker date="1506930140416" expanded="true" signature="5658:5675" placeholder="..." />
+                <marker date="1506930140416" expanded="true" signature="6733:6750" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -97,7 +99,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -132,81 +134,31 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="OAS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="OAS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="OAS" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="OAS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="OAS" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,17 +485,18 @@
       <workItem from="1504009757290" duration="40000" />
       <workItem from="1504849751159" duration="2417000" />
       <workItem from="1506867501524" duration="696000" />
+      <workItem from="1506929681303" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="667775000" />
+    <option name="totallyTimeSpent" value="668233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22767204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22747415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -912,50 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="80" column="98" selection-start-line="80" selection-start-column="98" selection-end-line="80" selection-end-column="98" />
-          <folding>
-            <marker date="1499528932023" expanded="true" signature="137:6340" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="232:302" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="360:1453" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="374:1247" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="419:443" placeholder="insert into ${$table}... " />
-            <marker date="1499528932023" expanded="true" signature="563:711" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="790:873" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="1007:1237" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="1271:1411" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="1532:2106" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="1545:1899" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="1566:1578" placeholder="delete from " />
-            <marker date="1499528932023" expanded="true" signature="1744:1889" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="1924:2064" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="2200:3122" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="2347:2493" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="2547:2604" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="2652:2915" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="2760:2905" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="2940:3080" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="3222:4791" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="3235:4584" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="3338:3399" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="3363:3377" placeholder="select * fro... ${$table}" />
-            <marker date="1499528932023" expanded="true" signature="3447:3698" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="3531:3643" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="3745:3823" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="3770:3795" placeholder="select * fro... ${$table}" />
-            <marker date="1499528932023" expanded="true" signature="3871:4139" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="3955:4067" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="4609:4749" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="4850:5574" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="4863:5367" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="5077:5127" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="5133:5180" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="5392:5532" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="5613:5975" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="5626:5768" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="5793:5933" placeholder="..." />
-            <marker date="1499528932023" expanded="false" signature="6016:6338" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="6029:6131" placeholder="..." />
-            <marker date="1499528932023" expanded="true" signature="6156:6296" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,22 +872,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1506867603312" expanded="true" signature="53:416" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1506867603236" expanded="true" signature="3502:3519" placeholder="..." />
-            <marker date="1506867603236" expanded="true" signature="4610:4627" placeholder="..." />
-            <marker date="1506867603236" expanded="true" signature="5713:5730" placeholder="..." />
-            <marker date="1506867603236" expanded="true" signature="6788:6805" placeholder="..." />
+            <marker date="1506930140416" expanded="true" signature="3447:3464" placeholder="..." />
+            <marker date="1506930140416" expanded="true" signature="4555:4572" placeholder="..." />
+            <marker date="1506930140416" expanded="true" signature="5658:5675" placeholder="..." />
+            <marker date="1506930140416" expanded="true" signature="6733:6750" placeholder="..." />
           </folding>
         </state>
       </provider>

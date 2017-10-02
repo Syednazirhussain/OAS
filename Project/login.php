@@ -8,7 +8,7 @@
     <meta http-equiv="uitoas" content="appointment">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Uit oas</title>
+    <title>Online appointment system</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     <!-- jQuery -->
     <script src="../vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <!-- FastClick -->
     <script src="../vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
