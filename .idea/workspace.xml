@@ -28,12 +28,12 @@
         <entry file="file://$PROJECT_DIR$/Project/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+              <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
               <folding>
-                <marker date="1506930371084" expanded="true" signature="3450:3467" placeholder="..." />
-                <marker date="1506930371084" expanded="true" signature="4558:4575" placeholder="..." />
-                <marker date="1506930371084" expanded="true" signature="5661:5678" placeholder="..." />
-                <marker date="1506930371084" expanded="true" signature="6736:6753" placeholder="..." />
+                <marker date="1506937446243" expanded="true" signature="3454:3471" placeholder="..." />
+                <marker date="1506937446243" expanded="true" signature="4562:4579" placeholder="..." />
+                <marker date="1506937446243" expanded="true" signature="5665:5682" placeholder="..." />
+                <marker date="1506937446243" expanded="true" signature="6740:6757" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -484,12 +484,12 @@
       <workItem from="1504009757290" duration="40000" />
       <workItem from="1504849751159" duration="2417000" />
       <workItem from="1506867501524" duration="696000" />
-      <workItem from="1506929681303" duration="684000" />
+      <workItem from="1506929681303" duration="1286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="668459000" />
+    <option name="totallyTimeSpent" value="669061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -877,12 +877,12 @@
     <entry file="file://$PROJECT_DIR$/Project/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
           <folding>
-            <marker date="1506930371084" expanded="true" signature="3450:3467" placeholder="..." />
-            <marker date="1506930371084" expanded="true" signature="4558:4575" placeholder="..." />
-            <marker date="1506930371084" expanded="true" signature="5661:5678" placeholder="..." />
-            <marker date="1506930371084" expanded="true" signature="6736:6753" placeholder="..." />
+            <marker date="1506937446243" expanded="true" signature="3454:3471" placeholder="..." />
+            <marker date="1506937446243" expanded="true" signature="4562:4579" placeholder="..." />
+            <marker date="1506937446243" expanded="true" signature="5665:5682" placeholder="..." />
+            <marker date="1506937446243" expanded="true" signature="6740:6757" placeholder="..." />
           </folding>
         </state>
       </provider>
