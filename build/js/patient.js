@@ -124,18 +124,25 @@ $(document).ready(function () {
             html += '<p class="title">Doctor Prescribtion</p>';
             html += '<p>'+jsObj['result'][0].p_detail+'</p>';
             html += '</div><br>';
-         /*   html += '<div class="text-center mtop20">';
-            html += '<button id="back"  class="btn btn-sm btn-primary">Back</button>';
-            html += '</div>';*/
+            html += '<p class="title">Shared files to the corresponding appointment&nbsp;<code>Click for download</code></p>';
+            html += '<ul class="-list">';
+            var str = jsObj['result'][0].filePath;
+            var res = str.split("^");
+            for (var i=0; i<res.length; i++) {
+                url = res[i].substr(1 + res[i].lastIndexOf("/"));
+                html += '<li><a href="'+res[i]+'">'+url.replace(/[0-9]_/g, '')+'</a></li>';
+            }
+            html += '</ul>';
             html += '</div>';
             html += '</section>';
-/*            html += '<h1>Here is the download file to the corresponding appointment</h1>'*/
             $('#sharedData').html(html);
             $('#sharedData').fadeIn(500);
             $('#upload').show();
         });
         
     });
+    
+    
 
     $("body").delegate( ".activity", "click", function(){
         //alert($(this).attr("id"));
