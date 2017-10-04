@@ -522,6 +522,7 @@ inner join appointments as a on d.id = a.doctorid where a.confirm = 1 and a.pati
         $result = $this->customSelect("select a.*,p.* from appointments as a inner join prescribtion as p on 
                   a.id = p.appt_id where p.p_id = {$params['prescribtionId']}");
         return $result;
+
     }
     public function getAllprofession(){
         $result = $this->select('profession',array('*'));
