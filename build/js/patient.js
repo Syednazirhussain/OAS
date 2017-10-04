@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var html = '',table='',patientid;
+    var html = '',table='',patientid,prescribtionid;
 
 
     $(window).load(function () {
@@ -90,12 +90,16 @@ $(document).ready(function () {
             table += '</div> </div> </div> </div> </div>';
             $('#PatientSharingDoc').html(table);
         });
+
         
         
     });
     $('#sharedData').hide();
     $('#upload').hide();
+
     $("body").delegate( ".sharingData", "click", function(){
+        /*alert($(this).attr("id"));*/
+        prescribtionid = $(this).attr("id");
         $('#PatientSharingDoc').hide();
         //alert($(this).attr("id"));
         var jsobj = {
@@ -125,10 +129,12 @@ $(document).ready(function () {
             html += '</div>';*/
             html += '</div>';
             html += '</section>';
+/*            html += '<h1>Here is the download file to the corresponding appointment</h1>'*/
             $('#sharedData').html(html);
             $('#sharedData').fadeIn(500);
             $('#upload').show();
         });
+        
     });
 
     $("body").delegate( ".activity", "click", function(){
@@ -160,6 +166,7 @@ $(document).ready(function () {
         $('#patientActivity').show();
         $('#view_appointments').hide();
     });
+    
     $("#back").click(function() {
         $('#PatientSharingDoc').show();
         $('#sharedData').hide();
@@ -175,7 +182,8 @@ $(document).ready(function () {
             form_data.append("files[]", document.getElementById('multiFiles').files[x]);
         }
         form_data.append("patientId",patientid);
-        $.ajax({
+        form_data.append("prescribtionId",prescribtionid);
+       $.ajax({
             url: '../classes/upload.php', // point to server-side PHP script
             dataType: 'text', // what to expect back from the PHP script
             cache: false,
@@ -184,7 +192,11 @@ $(document).ready(function () {
             data: form_data,
             type: 'post',
             success: function (response) {
-                $('#msg').html(response); // display success response from the PHP script
+                $('#msg').html(response);
+                setInterval(function(){
+                    window.location.href = "user-profile.php";
+                }, 10000);
+                // display success response from the PHP script
             },
             error: function (response) {
                 $('#msg').html(response); // display error response from the PHP script
