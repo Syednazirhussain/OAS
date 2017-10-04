@@ -130,7 +130,7 @@ $(document).ready(function () {
             var res = str.split("^");
             for (var i=0; i<res.length; i++) {
                 url = res[i].substr(1 + res[i].lastIndexOf("/"));
-                html += '<li><a href="'+res[i]+'">'+url.replace(/[0-9]_/g, '')+'</a></li>';
+                html += '<li><a href="'+res[i]+'" download>'+url.replace(/[0-9]_/g, '')+'</a></li>';
             }
             html += '</ul>';
             html += '</div>';

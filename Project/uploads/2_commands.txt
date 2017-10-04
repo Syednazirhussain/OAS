@@ -1,0 +1,134 @@
+submit
+
+:create directory  
+
+git init
+
+git status
+
+git add actocat.txt
+
+git status
+
+:To store our staged changes we run the commit command with a message describing what we've changed. Let's do that now by typing
+
+git commit -m "Add cute octocat story"
+
+git add '*.txt'
+
+git commit -m 'Add all the actocat txt files'
+
+:history
+$ git log
+
+:
+This command takes a remote name and a repository URL, which in your case is https://github.com/try-git/try_git.git.
+git remote add origin https://github.com/try-git/try_git.git 
+
+:So let's push our local changes to our origin repo (on GitHub).
+git pull origin master
+
+git add octofamily/octodog.txt
+
+:Good, now go ahead and run git diff with the --staged option to see the changes you just staged. You should see that  octodog.txt was created.
+git diff --staged
+
+:You can unstage files by using the git reset command.
+git reset octofamily/octodog.txt
+
+:Files can be changed back to how they were at the last commit by using the command: git checkout -- <target>. Go ahead and get rid of all the changes since the last commit for octocat.txt
+git checkout -- octocat.txt
+
+:create a copy branch for working independently
+git branch clean_up
+
+
+:switch form one branch to another
+git checkout clean_up
+
+:remove file in current branch remove by specific extension /* Branch like a folder */
+git rm '*.txt'
+
+:Now that you've removed all the .txt files you'll need to commit your changes.
+git commit -m "Remove all the txt files"
+
+:move to master branch 
+git checkout master
+
+merge your changes from the clean_up branch into the master branch.
+git merge clean_up
+
+:You can use git branch -d <branch name> to delete a branch.
+git branch -d clean_up
+
+---------------------------- New challanges------------------------------------
+
+git help config
+
+:Before you start working with Git, you need to set up your name to include with commit messages. Use git config to set your user name (could be anything), across all repos on this machine.
+$ git config --global user.name "Syed Nazir Hussain"
+
+:(Start repos)You've begun working on the project, so it's time to setup version control. Set up a new Git repo within the current directory.
+
+git status
+
+:(Stage Files)Ah, there's your file. It's never been committed before, so add it to the staging area.
+git add index.html
+
+:(Commit files)Now add your staged changes to the Git repo by committing them.
+$ git commit -m "Iam adding an index.html files in my repositery"
+
+:(Stage many files)You've made a subdirectory for stylesheets, but nothing's committed yet. Add all files in the css/ directory to the stage.
+git add css/
+
+git log
+
+---------------------------------- Next level ------------------------------------
+
+git config --global user.name "syed nazir hussain"
+
+git config --global user.email "syednazir13@gmail.com"
+
+git config --list
+
+git help commit (to show help in default browser)
+
+ls show files and directory
+ls -la (list of all hidden files)
+
+git add . (present changing directory)
+git commit -m "Write over message to be remember"
+git log (show the commit history)
+git commit --author="Syed" (show commit to specific person)
+
+:Comparing the staging area with the repository
+git diff --staged
+
+:Delete file from repository
+git rm filename -> git rm first.txt
+
+:how to move and rename files
+git mv home.txt pudding.txt
+
+git commit -am "save all in repository file that you modified"
+
+git checkout -- filename //to create a copy of file for git repository to working directory
+
+to check old version of our project just type (git log)
+it can list all the commit that you occured previously by unique id
+
+
+to get previous version write (git checkout versionID{few starting code} filename.{extension})
+so you get previous version of file
+
+
+add project to git hub directory
+git remote add gitHubRep{nick name} project url(https://...)
+
+git remote
+show all remote project
+ex fyp_oas
+
+git push -u fyp_oas master
+
+https://desktop.github.com
