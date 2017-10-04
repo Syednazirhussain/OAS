@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2480606a-77f5-4862-ae12-3f3de27ebc39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/uploads/1_Automata.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/uploads/2_commands.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/uploads/2_git.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/patient.js" afterPath="$PROJECT_DIR$/build/js/patient.js" />
     </list>
@@ -63,19 +64,19 @@
         <entry file="file://$PROJECT_DIR$/build/js/patient.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="404">
-              <caret line="132" column="58" selection-start-line="132" selection-start-column="58" selection-end-line="132" selection-end-column="58" />
+              <caret line="126" column="88" selection-start-line="126" selection-start-column="88" selection-end-line="126" selection-end-column="88" />
               <folding>
                 <element signature="e#377#943#0" expanded="false" />
                 <element signature="e#1109#2676#0" expanded="false" />
-                <element signature="e#7657#8849#0" expanded="false" />
-                <element signature="e#8908#8993#0" expanded="false" />
-                <element signature="e#9033#9142#0" expanded="false" />
-                <marker date="1507113866916" expanded="true" signature="1612:1625" placeholder="..." />
-                <marker date="1507113866916" expanded="true" signature="1811:1824" placeholder="..." />
-                <marker date="1507113866916" expanded="true" signature="2011:2024" placeholder="..." />
-                <marker date="1507113866916" expanded="true" signature="4261:4274" placeholder="..." />
-                <marker date="1507113866916" expanded="true" signature="4484:4497" placeholder="..." />
-                <marker date="1507113866916" expanded="true" signature="4690:4703" placeholder="..." />
+                <element signature="e#7811#9003#0" expanded="false" />
+                <element signature="e#9062#9147#0" expanded="false" />
+                <element signature="e#9187#9296#0" expanded="false" />
+                <marker date="1507115278875" expanded="true" signature="1612:1625" placeholder="..." />
+                <marker date="1507115278875" expanded="true" signature="1811:1824" placeholder="..." />
+                <marker date="1507115278875" expanded="true" signature="2011:2024" placeholder="..." />
+                <marker date="1507115278875" expanded="true" signature="4261:4274" placeholder="..." />
+                <marker date="1507115278875" expanded="true" signature="4484:4497" placeholder="..." />
+                <marker date="1507115278875" expanded="true" signature="4690:4703" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -702,12 +703,12 @@
       <workItem from="1504849751159" duration="2417000" />
       <workItem from="1506867501524" duration="696000" />
       <workItem from="1506929681303" duration="1286000" />
-      <workItem from="1507093029981" duration="15493000" />
+      <workItem from="1507093029981" duration="16604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="684554000" />
+    <option name="totallyTimeSpent" value="685665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -1177,19 +1178,19 @@
     <entry file="file://$PROJECT_DIR$/build/js/patient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
-          <caret line="132" column="58" selection-start-line="132" selection-start-column="58" selection-end-line="132" selection-end-column="58" />
+          <caret line="126" column="88" selection-start-line="126" selection-start-column="88" selection-end-line="126" selection-end-column="88" />
           <folding>
             <element signature="e#377#943#0" expanded="false" />
             <element signature="e#1109#2676#0" expanded="false" />
-            <element signature="e#7657#8849#0" expanded="false" />
-            <element signature="e#8908#8993#0" expanded="false" />
-            <element signature="e#9033#9142#0" expanded="false" />
-            <marker date="1507113866916" expanded="true" signature="1612:1625" placeholder="..." />
-            <marker date="1507113866916" expanded="true" signature="1811:1824" placeholder="..." />
-            <marker date="1507113866916" expanded="true" signature="2011:2024" placeholder="..." />
-            <marker date="1507113866916" expanded="true" signature="4261:4274" placeholder="..." />
-            <marker date="1507113866916" expanded="true" signature="4484:4497" placeholder="..." />
-            <marker date="1507113866916" expanded="true" signature="4690:4703" placeholder="..." />
+            <element signature="e#7811#9003#0" expanded="false" />
+            <element signature="e#9062#9147#0" expanded="false" />
+            <element signature="e#9187#9296#0" expanded="false" />
+            <marker date="1507115278875" expanded="true" signature="1612:1625" placeholder="..." />
+            <marker date="1507115278875" expanded="true" signature="1811:1824" placeholder="..." />
+            <marker date="1507115278875" expanded="true" signature="2011:2024" placeholder="..." />
+            <marker date="1507115278875" expanded="true" signature="4261:4274" placeholder="..." />
+            <marker date="1507115278875" expanded="true" signature="4484:4497" placeholder="..." />
+            <marker date="1507115278875" expanded="true" signature="4690:4703" placeholder="..." />
           </folding>
         </state>
       </provider>

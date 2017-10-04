@@ -124,15 +124,17 @@ $(document).ready(function () {
             html += '<p class="title">Doctor Prescribtion</p>';
             html += '<p>'+jsObj['result'][0].p_detail+'</p>';
             html += '</div><br>';
-            html += '<p class="title">Shared files to the corresponding appointment&nbsp;<code>Click for download</code></p>';
-            html += '<ul class="-list">';
-            var str = jsObj['result'][0].filePath;
-            var res = str.split("^");
-            for (var i=0; i<res.length; i++) {
-                url = res[i].substr(1 + res[i].lastIndexOf("/"));
-                html += '<li><a href="'+res[i]+'" download>'+url.replace(/[0-9]_/g, '')+'</a></li>';
+            if (jsObj['result'][0].filePath != "" && jsObj['result'][0].filePath != null) {
+                html += '<p class="title">Shared files to the corresponding appointment&nbsp;<code>Click for download</code></p>';
+                html += '<ul class="-list">';
+                var str = jsObj['result'][0].filePath;
+                var res = str.split("^");
+                for (var i = 0; i < res.length; i++) {
+                    url = res[i].substr(1 + res[i].lastIndexOf("/"));
+                    html += '<li><a href="' + res[i] + '" download>' + url.replace(/[0-9]_/g, '') + '</a></li>';
+                }
+                html += '</ul>';
             }
-            html += '</ul>';
             html += '</div>';
             html += '</section>';
             $('#sharedData').html(html);
