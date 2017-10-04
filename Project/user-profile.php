@@ -166,6 +166,7 @@ if (isset($_SESSION['patientid'])) {
                                                                         }?>
                                                                     </select>
                                                                 </div>
+                                                                <div id="doctor_detail"></div>
                                                                 <div id="Days"></div>
                                                                 <div id="time_slot"></div>
                                                                 <form id="takeAppointment" class="form-horizontal form-label-left" novalidate="">
@@ -203,9 +204,7 @@ if (isset($_SESSION['patientid'])) {
                                                                 <div id="Doctors"></div>
                                                                 <div id="payment"></div>
                                                                 <div class="popup" data-popup="popup-1">
-                                                                    <div class="popup-inner" id="ViewDoctor">
-
-                                                                    </div>
+                                                                    <div class="popup-inner" id="ViewDoctor"></div>
                                                                 </div>
                                                         </div>
                                                     </div>

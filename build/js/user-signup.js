@@ -278,8 +278,9 @@ $(document).ready(function(){
     /* Patient-profile page  doctor view profile ended */
 
     /* Patient-profile page select doctor for taking an appointment started */
+    $('#doctor_detail').hide();
     $("body").delegate( "button.take-appointment", "click", function() {
-        var html = '';
+        var html = '',doctor='';
         doctorId = parseInt($(this).parents().eq(3).attr("id"));
         console.log(doctorId);
         /*        $("#myTabContent").hide();*/
@@ -305,6 +306,23 @@ $(document).ready(function(){
             $("#Days").show();
             $("#Days").html(html);
         });
+        var jsObjs = {
+            'doctorid' : doctorId,
+            'call' : "get_doctor_detail"
+        }
+        $.post("../classes/helper.php",jsObjs,function (response) {
+            doctor = '';
+            var jsObj = JSON.parse(response);
+            doctor += '<p><img class="img-responsive" src="'+jsObj['result'][0].picPath+'">';
+            doctor += '<p class="-align-right">'+jsObj['result'][0].email+'</p>';
+            doctor += '<p class="-align-right">'+jsObj['result'][0].fname+' '+jsObj['result'][0].lname+'</p></p>';
+            doctor += '<iframe width="100%" height="450" frameborder="0" style="border:0"';
+            doctor += 'src="https://www.google.com/maps/embed/v1/place?key=AIzaSyACeA9-Yg-Io7uJybptaXb0xKj5pOyu-OY&q='+jsObj['result'][0].address+'" allowfullscreen>';
+            doctor += '</iframe>';
+            $('#doctor_detail').html(doctor);
+            $('#doctor_detail').show();
+        });
+
         $("#time").show();
         $("#takeAppointment").show();
     });

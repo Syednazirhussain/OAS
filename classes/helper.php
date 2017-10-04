@@ -528,6 +528,10 @@ inner join appointments as a on d.id = a.doctorid where a.confirm = 1 and a.pati
         $result = $this->select('profession',array('*'));
         return $result;
     }
+    public function get_doctor_detail($params){
+        $result = $this->select('doctor',array('*'),'where id = ?',array($params['doctorid']));
+        return $result;
+    }
 }
 $mendetoryParam = array(
     'filter'				=>	array('speciality','fees','Location'),
@@ -580,7 +584,8 @@ $mendetoryParam = array(
     'DEditPassword'         => array('doctorid','cpassword'),
     'PatientSharingDoc'     => array('patientID'),
     'sharedData'            => array('prescribtionId'),
-    'getAllprofession'      => array()
+    'getAllprofession'      => array(),
+    'get_doctor_detail'     => array('doctorid')
 );
 
 
